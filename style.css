@@ -115,3 +115,40 @@ span {
 .box p {
     font-size: 22px;
 }
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    background: #eee;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+    transition: all 0.25s ease-in-out;
+}
+
+textarea:focus {
+    background: #fff;
+    box-shadow: 0 0 0 4px rgba(116, 148, 236, 0.35),
+                0 10px 25px rgba(116, 148, 236, 0.2);
+    transform: translateY(-3px);
+}
+
+input,
+select {
+    transition: all 0.25s ease-in-out;
+}
+
+/* STRONG VISIBLE GLOW */
+input:focus,
+select:focus {
+    background: #fff;
+    outline: none;
+
+    box-shadow: 0 0 0 4px rgba(116, 148, 236, 0.35),
+                0 10px 25px rgba(116, 148, 236, 0.2);
+
+    transform: translateY(-3px);
+}
