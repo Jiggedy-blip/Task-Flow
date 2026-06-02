@@ -56,8 +56,7 @@ select {
 }
 
 button {
-    width: 100%;
-    padding: 12px;
+    padding: 12px 18px;
     background: #7494ec;
     border-radius: 6px;
     border: none;
@@ -65,7 +64,6 @@ button {
     font-size: 16px;
     color: #fff;
     font-weight: 500;
-    margin-bottom: 20px;
     transition: 0.5s;
 }
 
@@ -116,39 +114,21 @@ span {
     font-size: 22px;
 }
 
-textarea {
-    width: 100%;
-    padding: 12px;
-    background: #eee;
+a.delete-btn {
+    display: inline-block;
+    padding: 6px 10px;
+    background: #ff4d4d !important;
     border-radius: 6px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    margin-bottom: 20px;
-
-    transition: all 0.25s ease-in-out;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+    width: auto !important;
+    margin-bottom: 0 !important;
 }
 
-textarea:focus {
-    background: #fff;
-    box-shadow: 0 0 0 4px rgba(116, 148, 236, 0.35),
-                0 10px 25px rgba(116, 148, 236, 0.2);
-    transform: translateY(-3px);
-}
-
-input,
-select {
-    transition: all 0.25s ease-in-out;
-}
-
-/* STRONG VISIBLE GLOW */
-input:focus,
-select:focus {
-    background: #fff;
-    outline: none;
-
-    box-shadow: 0 0 0 4px rgba(116, 148, 236, 0.35),
-                0 10px 25px rgba(116, 148, 236, 0.2);
-
-    transform: translateY(-3px);
+a.delete-btn:hover {
+    background: #e60000 !important;
+    transform: scale(1.05);
 }
